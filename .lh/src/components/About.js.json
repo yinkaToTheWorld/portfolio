@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/About.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1735484166211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735486439824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,44 @@\n+import profilePic from '../assets/pic.png' \r\n+import {Link, Typography}  from '@mui/material/';\r\n+\r\n+\r\n+\r\n+const About = () => {\r\n+    return(\r\n+<>\r\n+\r\n+<div className=\"stage\" style={{display:'flex', }}>\r\n+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Ọkín</Typography>\r\n+<figure class=\"ball\"></figure>\r\n+</div>\r\n+\r\n+    <div className='about-container' >\r\n+    \r\n+      <Typography variant='h5' className='info-msg'> \r\n+      \r\n+        I am Ajibade Fawas Muhammad. \r\n+        As a full-stack developer, I bring a unique blend of expertise\r\n+       in both frontend and backend technologies, allowing me to create seamless and\r\n+        dynamic web and mobile applications. With a passion for clean code\r\n+         and user-centric design and leveraging my skill in languages\r\n+           such as JavaScript, Python, Java, and other tools and technologies like Reactjs, React Native, Node.js \r\n+            HTML, CSS, mongoDb, mongoose, mySql, and many more, i'm committed to continuous\r\n+             learning and staying updated with the latest industry trends. I \r\n+              deliver high-quality solutions that exceed client expectations and contribute to the\r\n+               growth of their business.\r\n+   </Typography>\r\n+\r\n+\r\n+  <div className='details'>\r\n+    <img src={profilePic} className='info-img' alt=\"logo\" />\r\n+   <button className='btn' ><Link target=\"_blank\" rel=\"noopener noreferrer\" style={{fontSize:'30px', color:'white', textDecoration:'none'}} href=\"https://flowcv.com/resume/mrnv4rhpdc\"> View my cv</Link> </button>\r\n+   </div>\r\n+\r\n+        </div>\r\n+   \r\n+         \r\n+      </>\r\n+       \r\n+    )    \r\n+    }\r\n+    export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735486499295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n    \r\n          \r\n       </>\r\n        \r\n-    )    }\r\n+    )   }\r\n     export default About;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1735484166211,
+            "name": "Commit-0",
+            "content": "import profilePic from '../assets/pic.png' \r\nimport {Link, Typography}  from '@mui/material/';\r\n\r\n\r\n\r\nconst About = () => {\r\n    return(\r\n<>\r\n\r\n<div className=\"stage\" style={{display:'flex', }}>\r\n  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Ọkín</Typography>\r\n<figure class=\"ball\"></figure>\r\n</div>\r\n\r\n    <div className='about-container' >\r\n    \r\n      <Typography variant='h5' className='info-msg'> \r\n      \r\n        I am Ajibade Fawas Muhammad. \r\n        As a full-stack developer, I bring a unique blend of expertise\r\n       in both frontend and backend technologies, allowing me to create seamless and\r\n        dynamic web and mobile applications. With a passion for clean code\r\n         and user-centric design and leveraging my skill in languages\r\n           such as JavaScript, Python, Java, and other tools and technologies like Reactjs, React Native, Node.js \r\n            HTML, CSS, mongoDb, mongoose, mySql, and many more, i'm committed to continuous\r\n             learning and staying updated with the latest industry trends. I \r\n              deliver high-quality solutions that exceed client expectations and contribute to the\r\n               growth of their business.\r\n   </Typography>\r\n\r\n\r\n  <div className='details'>\r\n    <img src={profilePic} className='info-img' alt=\"logo\" />\r\n   <button className='btn' ><Link style={{fontSize:'30px', color:'white', textDecoration:'none'}} href=\"https://flowcv.com/resume/mrnv4rhpdc\"> View my cv</Link> </button>\r\n   </div>\r\n\r\n        </div>\r\n   \r\n         \r\n      </>\r\n       \r\n    )    \r\n    }\r\n    export default About;"
+        }
+    ]
+}

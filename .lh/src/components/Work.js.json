@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Work.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1735483598344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735483604833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     <a  className='work' href=\"https://mairuwa.onrender.com\" target=\"_blank\">\r\n       <img src={logo2} style={{width:'250px', height:'250px',}} alt='work-img' />\r\n     <Typography variant='h4' ><strong style={{ color:'white'}}>Mairuwa</strong> </Typography>\r\n     <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >\r\n-      Ol is a software solution for users to place order and make payment for pure water to be\r\n+      Olom is a software solution for users to place order and make payment for pure water to be\r\n        delivered to them from the comfort of their home within the shortest time possible.\r\n </Typography>\r\n </a>\r\n \r\n"
+                },
+                {
+                    "date": 1735484814604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n \r\n \r\n <a  className='work' target=\"_blank\" href=\"https://okin.onrender.com\" >\r\n       <img src={logo1} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />\r\n-      \r\n+    \r\n     <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >\r\n     \r\n </Typography>\r\n     </a>\r\n"
+                }
+            ],
+            "date": 1735483598344,
+            "name": "Commit-0",
+            "content": "import logo1 from '../assets/CodeX.png';\r\nimport logo2 from '../assets/Mairuwa.png';\r\nimport logo3 from '../assets/Literalouge.png';\r\nimport { Typography,}  from '@mui/material/'; \r\n\r\n\r\n\r\nconst Work = () => {\r\n    return(\r\n      <>\r\n\r\n    <Typography variant='h3' className='title-work'>Works</Typography>\r\n\r\n    <div className=\"edu-div\"  >\r\n    <a  className='work' href=\"https://deenx-frontend.onrender.com\" target=\"_blank\">\r\n      <img src={logo1} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />\r\n    <Typography variant='h4' ><strong style={{ color:'white'}}> CodeX</strong> </Typography>\r\n    <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >\r\n    CodeX is a lifestyle blogsite that contains alot of articles that depicts   \r\n    different aspects and diciplines in the tech world from a simple, intresting and concise perspective.\r\n</Typography>\r\n    </a>\r\n\r\n    <a  className='work' href=\"https://mairuwa.onrender.com\" target=\"_blank\">\r\n      <img src={logo2} style={{width:'250px', height:'250px',}} alt='work-img' />\r\n    <Typography variant='h4' ><strong style={{ color:'white'}}>Mairuwa</strong> </Typography>\r\n    <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >\r\n       is a software solution for users to place order and make payment for pure water to be\r\n       delivered to them from the comfort of their home within the shortest time possible.\r\n</Typography>\r\n</a>\r\n\r\n<a  className='work' href=\"https://literalouge.onrender.com\" target=\"_blank\">\r\n      <img src={logo3} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />\r\n    <Typography variant='h4' ><strong style={{ color:'white'}}>Literalouge</strong> </Typography>\r\n    <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > \r\n    Literalouge is software platform that provides access to literature works in local african languages  \r\n    and a podium for users to outline thier views and opinions on the works.\r\n</Typography>\r\n</a>\r\n    </div>\r\n    \r\n      </>  \r\n    )    \r\n    }\r\n    export default Work;"
+        }
+    ]
+}

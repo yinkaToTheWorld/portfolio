@@ -138,6 +138,12 @@ background-color:#6275e4;
   padding-left:600px;
     padding-top:5px;
 }
+.work-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 200px;
+ }
  
 
 
