@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1735486455626,
@@ -40,6 +40,10 @@
                 {
                     "date": 1735488265013,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,42 +19,12 @@\n   <Link href=\"mailto:fawazmusty247@gmail.com\" > <MailIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n   <Link href=\"tel:+2347085812226\" > <PhoneIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n   </div>\r\n \r\n-<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2DWorldAll Rights Reserved.</Typography>\r\n+<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2DWorld |All Rights Reserved.</Typography>\r\n </div>\r\n \r\n </>\r\n    \r\n )\r\n }\r\n-export default Contact;\n-import {Typography, Link}  from'@mui/material/';\r\n-import XIcon from '@mui/icons-material/X';\r\n-import GitHubIcon from '@mui/icons-material/GitHub';\r\n-import LinkedInIcon from '@mui/icons-material/LinkedIn';\r\n-import MailIcon from '@mui/icons-material/Mail';\r\n-import PhoneIcon from '@mui/icons-material/Phone';\r\n-\r\n-const Contact = () => {\r\n-  const year = new Date().getFullYear()\r\n-return(\r\n-    \r\n-<>\r\n-\r\n-    <div className='contact'>\r\n-      <div style={{display:\"flex\", gap:\"1em\", justifyContent:\"center\"}}>\r\n-<Link  href='https://www.linkedin.com/in/fawas-ajibade-80aa56255' target=\"_blank\" rel=\"noopener noreferrer\"><LinkedInIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link> \r\n- <Link href='https://twitter.com/okin_tech' target=\"_blank\" rel=\"noopener noreferrer\"> <XIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link> \r\n-  <Link href='https://github.com/yinkaToTheWorld' target=\"_blank\" rel=\"noopener noreferrer\"> <GitHubIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>  \r\n-  <Link href=\"mailto:fawazmusty247@gmail.com\" > <MailIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n-  <Link href=\"tel:+2347085812226\" > <PhoneIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n-  </div>\r\n-\r\n-<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2DWorld</a> All Rights Reserved.</Typography>\r\n-</div>\r\n-\r\n-</>\r\n-   \r\n-)\r\n-}\r\n export default Contact;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735603247351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   <Link href=\"mailto:fawazmusty247@gmail.com\" > <MailIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n   <Link href=\"tel:+2347085812226\" > <PhoneIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>\r\n   </div>\r\n \r\n-<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2DWorld |All Rights Reserved.</Typography>\r\n+<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2orld | All Rights Reserved.</Typography>\r\n </div>\r\n \r\n </>\r\n    \r\n"
                 }
             ],
             "date": 1735486455626,

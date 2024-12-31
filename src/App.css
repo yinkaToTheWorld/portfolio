@@ -101,7 +101,7 @@ font-family:monospac;
  text-decoration: none;
 }
 .edu:active{
-background-color:#6275e4;
+background-color:#74F38F;
 }
 .edu-div{
  display: flex;
@@ -131,7 +131,7 @@ background-color:#6275e4;
   margin-top: 50px;
  }
  .work:active{
-  background-color: #6275e4;
+  background-color: #74F38F;
  }
  .title-work{
   color:#0c2461;
@@ -209,6 +209,7 @@ margin-left: 10px;
   } 
   .edu-div{
 flex-direction: column;
+margin-bottom: 50px; 
   }
   .title-edu{
     color:#0c2461;
@@ -234,6 +235,10 @@ flex-direction: column;
       padding-top:90px;
       text-decoration: underline;
   }
+  .work-div{
+    flex-direction: column;
+    margin-bottom: 50px; 
+      }
   .work{
     margin-bottom: 50px;
   }
@@ -248,9 +253,6 @@ flex-direction: column;
 
 .about-container{
   margin-bottom: 50px;
-}
-.edu-div{
-  margin-bottom: 50px; 
 }
 .contact{
   margin-bottom:3em;

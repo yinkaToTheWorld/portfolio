@@ -20,7 +20,7 @@ return(
   <Link href="tel:+2347085812226" > <PhoneIcon style={{fill:'#0c2461', fontSize: '50px'}}/> </Link>
   </div>
 
-<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2DWorld | All Rights Reserved.</Typography>
+<Typography style={{textAlign:'center', color:'#0c2461', fontSize:'20px' }} >&copy; {year} yinka2dworld | All Rights Reserved.</Typography>
 </div>
 
 </>
