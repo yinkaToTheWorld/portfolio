@@ -1,0 +1,46 @@
+{
+    "sourceFile": "public/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1735885355121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735885361656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n     \n \n \n-    <title></title>\n+    <title>yinka2dworls</title>\n   </head>\n   <body>\n     <noscript>You need to enable JavaScript to run this app.</noscript>\n     <div id=\"root\"></div>\n"
+                },
+                {
+                    "date": 1735885397082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,12 +16,12 @@\n     <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n     \n \n \n-    <title>yinka2dworls</title>\n+    <title>yinka2dworld</title>\n   </head>\n   <body>\n-    <noscript>You need to enable JavaScript to run this app.</noscript>\n+    \n     <div id=\"root\"></div>\n    \n \n   </body>\n"
+                },
+                {
+                    "date": 1735885426548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,9 @@\n     rel=\"stylesheet\"\n     href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n   />\n     <link rel=\"apple-touch-icon\" href=\"\" />\n-    <!--\n-      manifest.json provides metadata used when your web app is installed on a\n-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n-    -->\n-    <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n+  \n     \n \n \n     <title>yinka2dworld</title>\n"
+                },
+                {
+                    "date": 1735885440822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,9 @@\n     <link\n     rel=\"stylesheet\"\n     href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n   />\n-    <link rel=\"apple-touch-icon\" href=\"\" />\n-  \n+ \n     \n \n \n     <title>yinka2dworld</title>\n"
+                },
+                {
+                    "date": 1735885447567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,9 @@\n     <link\n     rel=\"stylesheet\"\n     href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n   />\n- \n-    \n \n-\n     <title>yinka2dworld</title>\n   </head>\n   <body>\n     \n"
+                },
+                {
+                    "date": 1735885477319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"utf-8\" />\n+    \n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n+    <link\n+    rel=\"stylesheet\"\n+    href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n+  />\n+\n+    <title>yinka2dworld</title>\n+  </head>\n+  <body>\n+    \n+    <div id=\"root\"></div>\n+   \n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1735885487401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+\n"
+                }
+            ],
+            "date": 1735885355121,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link\n    rel=\"stylesheet\"\n    href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n  />\n    <link rel=\"apple-touch-icon\" href=\"\" />\n    <!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n    -->\n    <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n    \n\n\n    <title></title>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"root\"></div>\n   \n\n  </body>\n</html>\n"
+        }
+    ]
+}
