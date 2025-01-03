@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1735602933386,
@@ -20,6 +20,66 @@
                 {
                     "date": 1735623400582,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     \"@testing-library/user-event\": \"^13.5.0\",\n     \"react\": \"^18.2.0\",\n     \"react-dom\": \"^18.2.0\",\n \n-  \"react-scripts\": \"^5.0.1\"\n+  \"react-scripts\": \"^5.0.1\",\n     \"react-router-dom\": \"^6.14.2\",\n     \"serve\": \"^14.2.4\",\n     \"styled-components\": \"^6.1.8\",\n     \"web-vitals\": \"^2.1.4\"\n"
+                },
+                {
+                    "date": 1735895824945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,26 +2,22 @@\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n   \"dependencies\": {\n-    \"@emotion/react\": \"^11.11.1\",\n-    \"@emotion/styled\": \"^11.11.0\",\n-    \"@mui/icons-material\": \"^5.14.3\",\n-    \"@mui/material\": \"^5.14.4\",\n-    \"@testing-library/jest-dom\": \"^5.16.5\",\n-    \"@testing-library/react\": \"^13.4.0\",\n-    \"@testing-library/user-event\": \"^13.5.0\",\n-    \"react\": \"^18.2.0\",\n-    \"react-dom\": \"^18.2.0\",\n-\n-  \"react-scripts\": \"^5.0.1\",\n-    \"react-router-dom\": \"^6.14.2\",\n+    \"@emotion/react\": \"^11.14.0\",\n+    \"@emotion/styled\": \"^11.14.0\",\n+    \"@mui/icons-material\": \"^6.3.0\",\n+    \"@mui/material\": \"^6.3.0\",\n+    \"cra-template\": \"1.2.0\",\n+    \"react\": \"^19.0.0\",\n+    \"react-dom\": \"^19.0.0\",\n+    \"react-router-dom\": \"^7.1.1\",\n+    \"react-scripts\": \"5.0.1\",\n     \"serve\": \"^14.2.4\",\n-    \"styled-components\": \"^6.1.8\",\n-    \"web-vitals\": \"^2.1.4\"\n+    \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n-    \"start\": \"react-scripts start\",\n+    \"start\": \",\n     \"build\": \"react-scripts build\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n@@ -43,7 +39,7 @@\n       \"last 1 safari version\"\n     ]\n   },\n   \"devDependencies\": {\n-    \"react-scripts\": \"^5.0.1\"\n+    \"@babel/plugin-proposal-private-property-in-object\": \"^7.21.11\"\n   }\n }\n"
+                },
+                {
+                    "date": 1735895836527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n-    \"start\": \",\n+    \"start\": \"\",\n     \"build\": \"react-scripts build\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n"
+                },
+                {
+                    "date": 1735896079894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,14 @@\n     \"cra-template\": \"1.2.0\",\n     \"react\": \"^19.0.0\",\n     \"react-dom\": \"^19.0.0\",\n     \"react-router-dom\": \"^7.1.1\",\n-    \"react-scripts\": \"5.0.1\",\n+    \"react-scripts\": \"^5.0.1\",\n     \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n-    \"start\": \"\",\n+    \"start\": \"npx serve -s build\",\n     \"build\": \"react-scripts build\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n"
+                },
+                {
+                    "date": 1735896093355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,14 @@\n     \"cra-template\": \"1.2.0\",\n     \"react\": \"^19.0.0\",\n     \"react-dom\": \"^19.0.0\",\n     \"react-router-dom\": \"^7.1.1\",\n-    \"react-scripts\": \"^5.0.1\",\n+    \"react-scripts\": \"5.0.1\",\n     \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n-    \"start\": \"npx serve -s build\",\n+    \"start\": \"react-scripts start\",\n     \"build\": \"react-scripts build\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n"
+                },
+                {
+                    "date": 1735896274934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n+  \"homepage\": \"https://your-domain.com/my-app\"\n+\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896281707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n-  \"homepage\": \"https://your-domain.com/my-app\"\n-\n+  \"homepage\": \"https://your-domain.com/my-app\",\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896334379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n-  \"homepage\": \"https://your-domain.com/my-app\",\n+  \"homepage\": \"\",\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896360583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n-  \"homepage\": \"\",\n+  \"homepage\": \"http://localhost:3000/\",\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896559684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n-  \"homepage\": \"http://localhost:3000/\",\n+  \"homepage\": \"/\",\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896873773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n {\n   \"name\": \"yinka2dworld\",\n   \"version\": \"0.1.0\",\n   \"private\": true,\n-  \"homepage\": \"/\",\n   \"dependencies\": {\n     \"@emotion/react\": \"^11.14.0\",\n     \"@emotion/styled\": \"^11.14.0\",\n     \"@mui/icons-material\": \"^6.3.0\",\n"
+                },
+                {
+                    "date": 1735896882597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n     \"react\": \"^19.0.0\",\n     \"react-dom\": \"^19.0.0\",\n     \"react-router-dom\": \"^7.1.1\",\n     \"react-scripts\": \"5.0.1\",\n-    \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n"
+                },
+                {
+                    "date": 1735896889762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     \"react\": \"^19.0.0\",\n     \"react-dom\": \"^19.0.0\",\n     \"react-router-dom\": \"^7.1.1\",\n     \"react-scripts\": \"5.0.1\",\n+    \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n"
+                },
+                {
+                    "date": 1735896936902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,14 +11,13 @@\n     \"react\": \"^19.0.0\",\n     \"react-dom\": \"^19.0.0\",\n     \"react-router-dom\": \"^7.1.1\",\n     \"react-scripts\": \"5.0.1\",\n-    \"serve\": \"^14.2.4\",\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n-    \"build\": \"react-scripts build\",\n+    \"build\": \"npx serve -s buildd\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n   \"eslintConfig\": {\n"
+                },
+                {
+                    "date": 1735896942749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n-    \"build\": \"npx serve -s buildd\",\n+    \"build\": \"npx serve -s buil\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n   \"eslintConfig\": {\n"
+                },
+                {
+                    "date": 1735896947938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \"web-vitals\": \"^4.2.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n-    \"build\": \"npx serve -s buil\",\n+    \"build\": \"npx serve -s build\",\n     \"test\": \"react-scripts test\",\n     \"eject\": \"react-scripts eject\"\n   },\n   \"eslintConfig\": {\n"
                 }
             ],
             "date": 1735602933386,
