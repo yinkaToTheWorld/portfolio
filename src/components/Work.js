@@ -12,7 +12,7 @@ const Work = () => {
 
     <div className="work-div"  > 
 
-<a className='work' href="https://literalouge.onrender.com" rel="noopener noreferrer"  target="_blank">
+<a className='work' href="https://literalouge-client.onrender.com" rel="noopener noreferrer"  target="_blank">
       <img src={logo3} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > 
     Literalouge is software platform that provides access to literature works in local african languages  
