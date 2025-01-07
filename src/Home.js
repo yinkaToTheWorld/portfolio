@@ -5,12 +5,12 @@ const Home = () => {
 
       setTimeout(() => {
          navigate('/main')
-      },5000)
+      },600000)
       
     return(
 <>
-<svg  viewBox="100 100 1600 600" >
-   <text x="55%" y="50%" dy=".35em" text-anchor="middle" className='name1'>Ọkín</text>
+<svg  viewBox="100 100 2000 600" >
+   <text x="55%" y="50%" dy=".35em" text-anchor="middle" className='svg-text'>yinka2Dworld</text>
 
 </svg>  
 

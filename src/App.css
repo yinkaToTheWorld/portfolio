@@ -100,7 +100,7 @@ font-family:monospac;
  padding-left: 20px;
  text-decoration: none;
 }
-.edu:active{
+.edu:hover{
 background-color:#74F38F;
 }
 .edu-div{
@@ -116,7 +116,6 @@ background-color:#74F38F;
     padding-top:40px;
 }
 .contact{
-  margin-bottom:3em;
   margin-top:-15em
 }
 
@@ -130,7 +129,7 @@ background-color:#74F38F;
   text-align: center;
   margin-top: 50px;
  }
- .work:active{
+ .work:hover{
   background-color: #74F38F;
  }
  .title-work{
@@ -253,10 +252,6 @@ margin-bottom: 50px;
 
 .about-container{
   margin-bottom: 50px;
-}
-.contact{
-  margin-bottom:3em;
-  margin-top:-15em
 }
 
 }

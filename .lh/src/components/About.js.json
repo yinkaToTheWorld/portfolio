@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1735484166211,
@@ -16,6 +16,10 @@
                 {
                     "date": 1735486499295,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n    \r\n          \r\n       </>\r\n        \r\n-    )    }\r\n+    )   }\r\n     export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736230429423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     return(\r\n <>\r\n \r\n <div className=\"stage\" style={{display:'flex', }}>\r\n-  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>yinka2D</Typography>\r\n+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>yinka2Dw</Typography>\r\n <figure class=\"ball\"></figure>\r\n </div>\r\n \r\n     <div className='about-container' >\r\n"
                 }
             ],
             "date": 1735484166211,
