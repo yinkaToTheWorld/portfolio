@@ -35,7 +35,7 @@ useEffect(() => {
 <>
 
 <div className="stage" style={{display:'flex', }}>
-  <Typography style={{color:'#0c2461', fontSize:'50px', marginLeft:'17px'}}>yinka2Dworld</Typography>
+  <Typography style={{color:'#0c2461', fontSize:'40px', marginLeft:'20px'}}>yinka2Dworld</Typography>
 <figure class="ball"></figure>
 </div>
 

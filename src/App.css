@@ -22,7 +22,7 @@ body{
    justify-content:center; 
 }
 
-.name1 {
+.svg-text{
   font-size: 300px; 
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
@@ -99,10 +99,15 @@ font-family:monospac;
    height: 350px;
  padding-left: 20px;
  text-decoration: none;
+ transition: all 0.3s ease-in-out;
+ cursor: pointer;
 }
 .edu:hover{
-background-color:#74F38F;
+  transform: scale(0.95); 
 }
+.edu:active{
+  transform: scale(0.90);
+  }
 .edu-div{
  display: flex;
  justify-content: space-between;
@@ -128,9 +133,14 @@ background-color:#74F38F;
   text-decoration: none;
   text-align: center;
   margin-top: 50px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
  }
  .work:hover{
-  background-color: #74F38F;
+  transform: scale(0.95); 
+}
+ .work:active{
+ transform: scale(0.90);
  }
  .title-work{
   color:#0c2461;
@@ -284,13 +294,13 @@ margin-bottom: 50px;
 .ball {
   background:#0c2461;
   border-radius: 50%;
-  height: 35px;
+  height: 18px;
   position: absolute;
-  width: 35px;
-  margin-left:17.5px;
-  border-width: 5px;
+  width: 18px;
+  margin-left:12.2em;
+  border-width: 4px;
   border-style: solid;
-  border-color: white;
+  border-color: #74F38F;
   margin-top: 21px;
 }
 

@@ -5,7 +5,7 @@ const Home = () => {
 
       setTimeout(() => {
          navigate('/main')
-      },600000)
+      },6000)
       
     return(
 <>
