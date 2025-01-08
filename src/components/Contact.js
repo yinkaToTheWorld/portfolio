@@ -12,7 +12,7 @@ return(
 <>
 
     <div className='contact'>
-      <div style={{display:"flex", gap:"1em", justifyContent:"center"}}>
+      <div style={{display:"flex", gap:"1.3em", justifyContent:"center"}}>
 <Link  href='https://www.linkedin.com/in/fawas-ajibade-80aa56255' target="_blank" rel="noopener noreferrer"><LinkedInIcon style={{fill:'#0c2461', fontSize: '40px'}}/> </Link> 
  <Link href='https://twitter.com/okin_tech' target="_blank" rel="noopener noreferrer"> <XIcon style={{fill:'#0c2461', fontSize: '40px'}}/> </Link> 
   <Link href='https://github.com/yinkaToTheWorld' target="_blank" rel="noopener noreferrer"> <GitHubIcon style={{fill:'#0c2461', fontSize: '40px'}}/> </Link>  
