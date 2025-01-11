@@ -26,17 +26,17 @@ body{
   font-size: 300px; 
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
-  stroke: white;
+  stroke: #EAECEC;
 }
 @keyframes stroke {
   0%   {
-    fill: #0c2461; stroke: white;
+    fill: #0c2461; stroke: #74F38f;
     stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width:10;
   }
-  70%  {fill: #0c2461; stroke:white; }
-  80%  {fill: #0c2461; stroke: white; stroke-width: 8; }
+  70%  {fill: #0c2461; stroke:#74F38F; }
+  80%  {fill: #0c2461; stroke: #74F38F; stroke-width: 8; }
   100% {
-    fill: white; stroke: #0c2461; 
+    fill: #EAECEC; stroke: #0c2461; 
     stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
