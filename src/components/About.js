@@ -46,7 +46,7 @@ useEffect(() => {
     </Typography>
      
   <div className='details'>
-    <img src={profilePic} className='info-img' alt="logo" />
+    <img loading="lazy" src={profilePic} className='info-img' alt="logo" />
    <button className='btn' ><Link target="_blank" rel="noopener noreferrer" style={{fontSize:'30px', color:'white', textDecoration:'none'}} href="https://flowcv.com/resume/mrnv4rhpdc"> View my cv</Link> </button>
    </div>
 
