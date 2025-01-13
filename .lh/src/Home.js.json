@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1736229849745,
@@ -100,6 +100,10 @@
                 {
                     "date": 1736232233962,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    const navigate = useNavigate();\r\n \r\n       setTimeout(() => {\r\n          navigate('/main')\r\n-      },500000)\r\n+      },600000)\r\n       \r\n     return(\r\n <>\r\n <svg  viewBox=\"100 100 2000 600\" >\r\n"
+                },
+                {
+                    "date": 1736786304930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+import { useNavigate } from \"react-router-dom\"\r\n+\r\n+const Home = () => {\r\n+   const navigate = useNavigate();\r\n+\r\n+      setTimeout(() => {\r\n+         navigate('/main')\r\n+      },60000)\r\n+      \r\n+    return(\r\n+<>\r\n+<svg  viewBox=\"100 100 2000 600\" >\r\n+   <text x=\"55%\" y=\"50%\" dy=\".35em\" text-anchor=\"middle\" className='svg-text'>yinka2Dworld</text>\r\n+\r\n+</svg>  \r\n+\r\n+      </>  \r\n+    )    \r\n+    }\r\n+    export default Home;\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1736229849745,

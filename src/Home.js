@@ -6,7 +6,6 @@ const Home = () => {
       setTimeout(() => {
          navigate('/main')
       },6000)
-      
     return(
 <>
 <svg  viewBox="100 100 2000 600" >
