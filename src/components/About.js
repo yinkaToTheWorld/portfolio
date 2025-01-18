@@ -25,7 +25,7 @@ useEffect(() => {
     const timer = setTimeout(() => {
       setDisplayedText((prev) => prev + fullText[index]);
       setIndex(index + 1);
-    }, 50); 
+    }, 0); 
     return () => clearTimeout(timer);
   }
 }, [index, fullText]);
