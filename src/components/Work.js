@@ -10,6 +10,14 @@ const Work = () => {
       <>
     <Typography variant='h3' className='title-work'>Works</Typography>
 
+    <a className='work'  target="_blank" rel="noopener noreferrer"  href="https://okin.onrender.com" >
+      <img src={logo1} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
+    <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
+    Ọkín is the official website of a pioneering tech company dedicated to providing efficient digital
+    solutions. It is multifaceted, efficient, and easy to use website application.
+</Typography>
+ </a>
+
     <div className="work-div"  > 
 <a  className='work' href="https://olomi.onrender.com/" rel="noopener noreferrer"  target="_blank">
       <img src={logo2} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
@@ -27,13 +35,6 @@ const Work = () => {
 </Typography>
 </a>
 
-  <a className='work'  target="_blank" rel="noopener noreferrer"  href="https://okin.onrender.com" >
-      <img src={logo1} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-    <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
-    Ọkín is the official website of a pioneering tech company dedicated to providing efficient digital
-    solutions. It is multifaceted, efficient, and easy to use website application.
-</Typography>
- </a>
     </div>
     
       </>  
