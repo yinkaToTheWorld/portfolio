@@ -10,7 +10,9 @@ const Work = () => {
       <>
     <Typography variant='h3' className='title-work'>Works</Typography>
 
-    <a className='work'  target="_blank" rel="noopener noreferrer"  href="https://okin.onrender.com" >
+    <div className="work-div"  >
+      
+       <a className='work'  target="_blank" rel="noopener noreferrer"  href="https://okin.com.ng" >
       <img src={logo1} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
     Ọkín is the official website of a pioneering tech company dedicated to providing efficient digital
@@ -18,7 +20,6 @@ const Work = () => {
 </Typography>
  </a>
 
-    <div className="work-div"  > 
 <a  className='work' href="https://olomi.onrender.com/" rel="noopener noreferrer"  target="_blank">
       <img src={logo2} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
@@ -26,8 +27,8 @@ const Work = () => {
       delivered to the most remote locations in subharan Africa that are facing water scarcity.
 </Typography>
 </a>
-
-<a className='work' href="https://literalouge-client.onrender.com" rel="noopener noreferrer"  target="_blank">
+ 
+ <a className='work' href="https://literalouge-client.onrender.com" rel="noopener noreferrer"  target="_blank">
       <img src={logo3} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > 
     Literalouge is software platform that provides access to literature works in local african languages  
