@@ -1,0 +1,18 @@
+{
+    "sourceFile": "DockerFile",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1741397978356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1741397978356,
+            "name": "Commit-0",
+            "content": "# Step 1: Use an official Node.js runtime as a parent image\r\nFROM node:18-alpine AS builder\r\n\r\n# Step 2: Set the working directory in the container\r\nWORKDIR /app\r\n\r\n# Step 3: Copy package.json and package-lock.json (or yarn.lock)\r\nCOPY package.json package-lock.json ./\r\n\r\n# Step 4: Install dependencies\r\nRUN npm install\r\n\r\n# Step 5: Copy the rest of the app files\r\nCOPY . .\r\n\r\n# Step 6: Build the Next.js app\r\nRUN npm run build\r\n\r\n# Step 7: Use a lightweight Node.js runtime for production\r\nFROM node:18-alpine\r\n\r\n# Step 8: Set the working directory\r\nWORKDIR /app\r\n\r\n# Step 9: Copy the built application from the previous stage\r\nCOPY --from=builder /app ./\r\n\r\n# Step 10: Set environment variables\r\nENV NODE_ENV=production\r\nENV PORT=3000\r\n\r\n# Step 11: Expose the port\r\nEXPOSE 3000\r\n\r\n# Step 12: Start the application\r\nCMD [\"npm\", \"start\"]\r\n"
+        }
+    ]
+}

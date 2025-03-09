@@ -1,6 +1,7 @@
 import logo1 from '../assets/Okin5.png';
 import logo2 from '../assets/Olomi.svg';
 import logo3 from '../assets/Literalouge.png';
+import logo4 from '../assets/jimasun.png';
 import { Typography}  from '@mui/material/'; 
 
 
@@ -19,6 +20,14 @@ const Work = () => {
     solutions. It is multifaceted, efficient, and easy to use website application.
 </Typography>
  </a>
+
+ <a  className='work' href="https://jimasun.onrender.com" rel="noopener noreferrer"  target="_blank">
+      <img src={logo4} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
+      <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
+      Olomi is a software solution for users to place order and make payment for pure water to be
+      delivered to the most remote locations in subharan Africa that are facing water scarcity.
+</Typography>
+</a>
 
 <a  className='work' href="https://olomi.onrender.com/" rel="noopener noreferrer"  target="_blank">
       <img src={logo2} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
