@@ -8,8 +8,8 @@ export default function Page (params) {
    return(
    <div>
         <About/>
-        <Edu/>
         <Work/>
+        <Edu/>
         <Contact/>
     </div>
 )}

@@ -14,32 +14,32 @@ const Work = () => {
     <div className="work-div"  >
       
        <a className='work'  target="_blank" rel="noopener noreferrer"  href="https://okin.com.ng" >
-      <img src={logo1} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-    <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
+      <img src={logo1} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
+    <Typography  style={{ fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} >
     Ọkín is the official website of a pioneering tech company dedicated to providing efficient digital
     solutions. It is multifaceted, efficient, and easy to use website application.
 </Typography>
  </a>
 
  <a  className='work' href="https://jimasun.onrender.com" rel="noopener noreferrer"  target="_blank">
-      <img src={logo4} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-      <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
-      Olomi is a software solution for users to place order and make payment for pure water to be
-      delivered to the most remote locations in subharan Africa that are facing water scarcity.
+      <img src={logo4} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
+      <Typography  style={{fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} >
+      Jimasun is a platform dedicated to encouraging citizens to take an active role in governance
+      and democracy through articles, opinion pieces, and interactive forums
 </Typography>
 </a>
 
 <a  className='work' href="https://olomi.onrender.com/" rel="noopener noreferrer"  target="_blank">
-      <img src={logo2} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-    <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
+      <img src={logo2} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
+    <Typography  style={{fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} >
       Olomi is a software solution for users to place order and make payment for pure water to be
       delivered to the most remote locations in subharan Africa that are facing water scarcity.
 </Typography>
 </a>
  
- <a className='work' href="https://literalouge-client.onrender.com" rel="noopener noreferrer"  target="_blank">
-      <img src={logo3} loading="lazy" style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-    <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > 
+ <a className='work' href="https://literalouge.onrender.com/" rel="noopener noreferrer"  target="_blank">
+      <img src={logo3} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
+    <Typography  style={{fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} > 
     Literalouge is software platform that provides access to literature works in local african languages  
     and a podium for users to outline thier views and opinions on the works.
 </Typography>

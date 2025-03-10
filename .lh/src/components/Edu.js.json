@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1735486514975,
@@ -20,6 +20,14 @@
                 {
                     "date": 1735488028398,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \r\n \r\n     <div className=\"edu-div\">\r\n \r\n-    <a href='https://www.inecnigeria.org/' target=\"_blank\" rel=\"noopener noreferrer\"  className='edu'><br/><br/>\r\n+    <a href='https://www.inecnigeria.org/' target=\"_blank\" c:\\Users\\USER\\OneDrive\\Pictures\\Okin5.png className='edu'><br/><br/>\r\n     <Typography  variant='h5'>2022</Typography><br/>\r\n     <Typography style={{color:'#6ab04c'}} variant='h4'>Data collection and managment</Typography><br/>\r\n     <Typography  variant='h5'>INEC headquaters Kaduna</Typography><br/><br/><br/>\r\n     </a>\r\n"
+                },
+                {
+                    "date": 1741533917646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <div className=\"edu-div\">\r\n \r\n     <a href='https://www.inecnigeria.org/' target=\"_blank\" rel=\"noopener noreferrer\"  className='edu'><br/><br/>\r\n     <Typography  variant='h5'>2022</Typography><br/>\r\n-    <Typography style={{color:''}} variant='h4'>Data collection and managment</Typography><br/>\r\n+    <Typography style={{color:'#74F38F'}} variant='h4'>Data collection and managment</Typography><br/>\r\n     <Typography  variant='h5'>INEC headquaters Kaduna</Typography><br/><br/><br/>\r\n     </a>\r\n    \r\n     <a href='https://ihifix.com/' target=\"_blank\" rel=\"noopener noreferrer\" className='edu' ><br/><br/>\r\n"
+                },
+                {
+                    "date": 1741533935127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,37 @@\n+import {Typography,}  from '@mui/material/'; \r\n+\r\n+\r\n+\r\n+const Contact = () => {\r\n+    return(\r\n+      <>\r\n+\r\n+      <Typography className='title-edu' variant='h3'>Education & Experience</Typography>\r\n+\r\n+\r\n+    <div className=\"edu-div\">\r\n+\r\n+    <a href='https://www.inecnigeria.org/' target=\"_blank\" rel=\"noopener noreferrer\"  className='edu'><br/><br/>\r\n+    <Typography  variant='h5'>2022</Typography><br/>\r\n+    <Typography style={{color:'#74F38F'}} variant='h4'>Data collection and managment</Typography><br/>\r\n+    <Typography  variant='h5'>INEC headquaters Kaduna</Typography><br/><br/><br/>\r\n+    </a>\r\n+   \r\n+    <a href='https://ihifix.com/' target=\"_blank\" rel=\"noopener noreferrer\" className='edu' ><br/><br/>\r\n+    <Typography  variant='h5'>2023</Typography><br/>\r\n+    <Typography style={{color:'#74F38F'}} variant='h4'>Backend Engineering</Typography><br/><br/><br/>\r\n+    <Typography  variant='h5'>Ihifix technologies</Typography><br/><br/><br/>\r\n+    </a>\r\n+\r\n+    <a href='https://auk.edu.ng/' target=\"_blank\" rel=\"noopener noreferrer\" className='edu'  ><br/><br/>\r\n+    <Typography  variant='h5'>2023</Typography><br/>\r\n+    <Typography style={{color:'#6ab04c'}} variant='h4'>BSc.<br/> Software Engineering</Typography><br/>\r\n+    <Typography  variant='h5'>Al-qalam university katsina</Typography><br/><br/><br/>\r\n+    </a>\r\n+\r\n+    </div>\r\n+   \r\n+      </>  \r\n+    )    \r\n+    }\r\n+    export default Contact;\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1735486514975,

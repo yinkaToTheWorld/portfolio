@@ -41,13 +41,13 @@ useEffect(() => {
 
     <div className='about-container' >
     
-    <Typography variant="h5" className="info-msg">
+    <Typography style={{fontSize:'18px'}} className="info-msg">
       {displayedText}
     </Typography>
      
   <div className='details'>
     <img loading="lazy" src={profilePic} className='info-img' alt="logo" />
-   <button className='btn' ><Link target="_blank" rel="noopener noreferrer" style={{fontSize:'30px', color:'white', textDecoration:'none'}} href="https://flowcv.com/resume/mrnv4rhpdc"> View my cv</Link> </button>
+   <button className='btn' ><Link target="_blank" rel="noopener noreferrer" style={{fontSize:'22px', color:'#74F38F', textDecoration:'none'}} href="https://flowcv.com/resume/mrnv4rhpdc"> View my CV</Link> </button>
    </div>
 
         </div>

@@ -2,7 +2,7 @@ import {Typography,}  from '@mui/material/';
 
 
 
-const Contact = () => {
+const Edu = () => {
     return(
       <>
 
@@ -11,22 +11,22 @@ const Contact = () => {
 
     <div className="edu-div">
 
-    <a href='https://www.inecnigeria.org/' target="_blank" rel="noopener noreferrer"  className='edu'><br/><br/>
-    <Typography  variant='h5'>2022</Typography><br/>
-    <Typography style={{color:'#6ab04c'}} variant='h4'>Data collection and managment</Typography><br/>
-    <Typography  variant='h5'>INEC headquaters Kaduna</Typography><br/><br/><br/>
+    <a href='https://www.inecnigeria.org/' target="_blank" rel="noopener noreferrer" className='edu' ><br/><br/>
+    <Typography  variant='body1'>2022</Typography><br/>
+    <Typography style={{color:'#74F38F'}} variant='h5'>Data collection & managment</Typography><br/><br/><br/>
+    <Typography  variant='body1'>INEC headquaters Kaduna</Typography><br/><br/><br/>
     </a>
    
     <a href='https://ihifix.com/' target="_blank" rel="noopener noreferrer" className='edu' ><br/><br/>
-    <Typography  variant='h5'>2023</Typography><br/>
-    <Typography style={{color:'#6ab04c'}} variant='h4'>Backend Engineering</Typography><br/><br/><br/>
-    <Typography  variant='h5'>Ihifix technologies</Typography><br/><br/><br/>
+    <Typography  variant='body1'>2023</Typography><br/>
+    <Typography style={{color:'#74F38F'}} variant='h5'>Backend Engineering</Typography><br/><br/><br/>
+    <Typography  variant='body1'>Ihifix technologies</Typography><br/><br/><br/>
     </a>
 
-    <a href='https://auk.edu.ng/' target="_blank" rel="noopener noreferrer" className='edu'  ><br/><br/>
-    <Typography  variant='h5'>2023</Typography><br/>
-    <Typography style={{color:'#6ab04c'}} variant='h4'>BSc.<br/> Software Engineering</Typography><br/>
-    <Typography  variant='h5'>Al-qalam university katsina</Typography><br/><br/><br/>
+    <a href='https://auk.edu.ng/' target="_blank" rel="noopener noreferrer" className='edu' ><br/><br/>
+    <Typography  variant='body1'>2023</Typography><br/>
+    <Typography style={{color:'#74F38F'}} variant='h5'>BSc. Software Engineering</Typography><br/><br/><br/>
+    <Typography  variant='body1'>Al-Qalam university katsina</Typography><br/><br/><br/>
     </a>
 
     </div>
@@ -34,4 +34,4 @@ const Contact = () => {
       </>  
     )    
     }
-    export default Contact;
+    export default Edu;
