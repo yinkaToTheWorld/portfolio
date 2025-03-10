@@ -6,8 +6,7 @@ import { useState, useEffect } from 'react';
 const About = () => {
 
   const fullText = `
-  I am Ajibade Fawas Muhammad.
-  As a versatile and passionate full-stack developer, I specialize in crafting seamless, dynamic, and user-centric web and mobile applications. 
+  I am Ajibade Fawas Adeyinka, as a versatile and passionate full-stack developer, I specialize in crafting seamless, dynamic, and user-centric web and mobile applications. 
   My expertise spans both frontend and backend development, enabling me to build solutions that integrate functionality with exceptional design.
   
   I have honed my skills in languages like JavaScript, Python, and Java, along with tools and frameworks such as React.js, React Native, Node.js, HTML, CSS, MongoDB, Mongoose, and MySQL, among others. 
