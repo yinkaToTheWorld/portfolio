@@ -21,10 +21,10 @@ const Work = () => {
 </Typography>
  </a>
 
- <a  className='work' href="https://jimasun.onrender.com" rel="noopener noreferrer"  target="_blank">
+ <a  className='work' href="https://afritroit.onrender.com" rel="noopener noreferrer"  target="_blank">
       <img src={logo4} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
       <Typography  style={{fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} >
-      Jimasun is a platform dedicated to encouraging citizens to take an active role in governance
+      Afritroit is a platform dedicated to encouraging citizens to take an active role in governance
       and democracy through articles, opinion pieces, and interactive forums
 </Typography>
 </a>
