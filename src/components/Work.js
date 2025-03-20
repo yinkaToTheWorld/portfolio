@@ -40,8 +40,8 @@ const Work = () => {
  <a className='work' href="https://literalouge.onrender.com/" rel="noopener noreferrer"  target="_blank">
       <img src={logo3} loading="lazy" style={{width:'150px', borderRadius:'100%', paddingTop:'10px'}} alt='work-img' />
     <Typography  style={{fontSize:'16px', maxWidth:'250px', textAlign:'justify', padding:'15px', fontFamily:'Roboto, sans-serif'}} > 
-    Literalouge is software platform that provides access to literature works in local african languages  
-    and a podium for users to outline thier views and opinions on the works.
+    Literalouge is a website dedicated to preserving and promoting African languages by providing a
+    collection of books written in various African languages.
 </Typography>
 </a>
 
